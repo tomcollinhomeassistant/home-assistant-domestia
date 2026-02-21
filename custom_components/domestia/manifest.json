@@ -1,11 +1,11 @@
 {
   "domain": "domestia",
-  "name": "Domestia UDP",
-  "version": "3.0.0",
-  "documentation": "https://github.com/TON_USERNAME/home-assistant-domestia",
-  "issue_tracker": "https://github.com/TON_USERNAME/home-assistant-domestia/issues",
+  "name": "Domestia",
+  "version": "0.1.0",
+  "documentation": "https://github.com/tomcollinhomeassistant/home-assistant-domestia",
+  "issue_tracker": "https://github.com/tomcollinhomeassistant/home-assistant-domestia/issues",
   "requirements": [],
-  "codeowners": ["@TON_USERNAME"],
+  "codeowners": ["@tomcollinhomeassistant"],
   "config_flow": true,
   "iot_class": "local_polling"
 }
