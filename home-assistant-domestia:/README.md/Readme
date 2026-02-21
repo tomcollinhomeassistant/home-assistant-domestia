@@ -1,0 +1,44 @@
+# Domestia – Home Assistant
+
+Custom Home Assistant integration for **Domestia** home automation systems, using **local UDP communication**.
+
+This integration allows you to control Domestia outputs directly from Home Assistant **without any cloud dependency**.
+
+---
+
+## Features
+
+- Local UDP communication (no cloud)
+- Automatic discovery of Domestia outputs
+- Support for:
+  - Switches (relays)
+  - Lights (dimmers)
+  - Covers (shutters)
+  - Scene buttons (virtual outputs 57–104)
+- Config Flow (UI-based configuration in Home Assistant)
+
+---
+
+## Requirements
+
+- Home Assistant **2023.8** or newer
+- Domestia installation with UDP access enabled
+- Network access to the Domestia controller
+
+---
+
+## Installation
+
+### Manual installation
+
+1. Copy the `domestia` folder into your Home Assistant configuration directory:
+
+```text
+config/custom_components/domestia/
+```
+
+2. Restart Home Assistant.
+
+3. Go to **Settings → Devices & Services → Add Integration**.
+
+4. Search for **Domestia** and follow the configuration steps.
